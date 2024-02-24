@@ -1,2 +1,2 @@
 # blocking-PR-demo
-feature1
+feature2
