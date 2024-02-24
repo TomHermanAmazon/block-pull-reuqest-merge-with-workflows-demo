@@ -1,4 +1,4 @@
-Name: workflow-2
+Name: GenerateWikiTable
 SchemaVersion: "1.0"
 
 # Optional - Set automatic triggers.
@@ -6,10 +6,9 @@ Triggers:
   - Type: PullRequest
     Events: [open, revision]
 
-
 # Required - Define action configurations.
 Actions:
-  Build_tom:
+  Build_35:
     # Identifies the action. Do not modify this value.
     Identifier: aws/build-beta@v1.0.0
 
@@ -30,4 +29,4 @@ Actions:
     Configuration:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
-        - Run: exit 1
+        - Run: exit 0

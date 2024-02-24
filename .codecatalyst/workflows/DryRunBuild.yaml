@@ -1,4 +1,4 @@
-Name: workflow-2
+Name: DryRunBuild
 SchemaVersion: "1.0"
 
 # Optional - Set automatic triggers.

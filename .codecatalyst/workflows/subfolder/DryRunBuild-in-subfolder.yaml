@@ -1,4 +1,4 @@
-Name: workflow-1
+Name: DryRunBuild
 SchemaVersion: "1.0"
 
 # Optional - Set automatic triggers.
@@ -6,9 +6,10 @@ Triggers:
   - Type: PullRequest
     Events: [open, revision]
 
+
 # Required - Define action configurations.
 Actions:
-  Build_35:
+  Build_tom:
     # Identifies the action. Do not modify this value.
     Identifier: aws/build-beta@v1.0.0
 
@@ -29,4 +30,4 @@ Actions:
     Configuration:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
-        - Run: exit 0
+        - Run: exit 1
